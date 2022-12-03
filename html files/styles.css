@@ -1,8 +1,119 @@
+@font-face {
+    font-family: 'Gv. time';
+    src: url('Gvtime-Regular.woff2') format('woff2'),
+        url('Gvtime-Regular.woff') format('woff');
+    font-weight:normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* HOME PAGE */
 #home-page{ 
     background-image: url("./WallpaperDog-20510060.jpg");
     background-size: cover;
 }
 
+#home-header{
+    background-color: black;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 2em;
+}
+
+#home-name{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.home-title{
+    margin-bottom: 40px;
+}
+
+#home-body{
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#home-blurb{
+    
+    width: 300px;
+    background-color: white;
+    border: 10px solid black;
+    font-size: 24px;
+    padding: 1.5em;
+    margin: 2.5em;
+    border-radius: 5px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: white;
+    color:black;
+}
+
+/* WORK PAGE */
 #work-page {
-    background-color: rgb(249, 155, 120);
+    background-color:rgb(108,180,175);
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left:-10px;
+    margin-right: -10px;
+
+}
+
+.page-header{
+    background-color: black;
+    color:white;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 2em;
+    
+}
+
+#work-title{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.work-item{
+    display: flex;
+    align-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 3px 5px 3px rgb(79, 130, 126);
+    margin: 7em;
+    padding-bottom: 3em;
+    padding-left: 2em;
+    padding-right: 2em;
 }

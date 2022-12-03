@@ -5,36 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>🎨my work💻</title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+    
+    <title>💻my work</title>
 </head>
-<body id="work-page">
-    
-    <a href="./index.html">home</a>
-    <a href="./resume.html">my resume</a>
-    
-        <div>
-            <h1>my work</h1>
+<body >
+        <div class="page-header">
+            <p id="work-title">my work</p>
+            <h3 class="home-title">how I solve problems</h3>
+            <a href="./index.html">home</a>
+            <a href="./resume.html">my resume</a>
         </div>
-        <div>
-            <h3>My Solo Capstone Demo</h3>
-            <h5>...where to next?</h5>
-            <!-- INSERT NEW DEMO VIDEO HERE -->
-        </div>
-        <div>
-            <h3>How I Solve Problems</h3>
-            <div>
-                <h5>My Film Collection - student project</h5>
-                <vido>
-                    <source src="" type="video/mp4">
-                  Your browser does not support the video tag.
-                </vido>
-            </div>
-            <div>
-                <h5>Jurassic Gallery - student project</h5>
-            </div>
+            <div id="work-page">
+                
+                <div id="all-work-items">
+                    <div class="work-item">
+                        <h3>Solo Capstone Demo</h3>
+                        <p>...where to next?</p>
+                        <!-- INSERT NEW DEMO VIDEO HERE -->
+                    </div>
+                    <div class="work-item">
+                        <h5>My Film Collection - student project demo</h5>
+                        <video width="800" controls>
+                            <source src="../My Film Collection demo.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="work-item">
+                        <h5>Jurassic Gallery - student project demo</h5>
+                        <video width="800" controls>
+                            <source src="../React Jurassic Gallery small.mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <div class="work-item">
+                        <h5>I had to solve the problem of unknown SQL query parameters depending on which destination features the user selects while using <em>Where to Next</em>.</h5>
+                        <img src="../countPlaceholders function.png" alt="an image of a function created to count placeholders for a SQL query"
+                        width="800">
+                    </div>
+                    <div class="work-item">
+                        <h5>I learned a lot about SQL while creating <em>Where to Next</em>. This is one of my three queries depending on if the user selects international, domestic, or both.</h5>
+                        <img src="../SQL Query for international and domestic destinations.png" alt="an image of SQL query text which selects destinations based on internationa and domestic both being true, as well as the preferences the user selected"
+                        width="800">
+                    </div>
+                    <div class="work-item">
+                        <h5>my database design for my scope document for <em>Where to Next</em> </h5>
+                        <img src="../Database Design .png" alt="an image of a database design"
+                        width="800">
+                    </div>
+                </div>
+       
            
 
-        </div>
+            </div>
     
   
 </body>
