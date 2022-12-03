@@ -117,3 +117,14 @@ a:hover{
     padding-left: 2em;
     padding-right: 2em;
 }
+
+/* RESUME PAGE */
+
+#resume-title{
+    font-family: 'Gv. time' ;
+    font-size: 128px;
+    letter-spacing: 5px;
+    line-height: 100px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
